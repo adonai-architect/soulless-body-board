@@ -11,9 +11,5 @@
     "sco_leak": 0.0077,
     "motor_gpx4": 0.85,
     "status": "HOLD — matches MAI 50/50 coherence proof"
-  },
-  "notes": [
-    "TIM4 literature_notes appended — pinealocyte TIM4 remains model extension",
-    "Root name corrected: Architect, not Bo"
-  ]
+  }
 }

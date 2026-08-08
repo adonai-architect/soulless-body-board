@@ -1,0 +1,25 @@
+{
+  "mode": "kill_test",
+  "compound": "naked_anionic_PS_positive_EV_mimic",
+  "description": "GBM-EV-class cargo: zeta -15 to -28 mV, PS+ outer leaflet, no HSPG decoy, no anti-TIM4 Fab",
+  "delivery": {
+    "route": "CSF -> pineal_recess -> discontinuous ependyma -> CSF-contacting pinealocytes",
+    "fus_optional": false
+  },
+  "targets": ["csf", "pineal_recess", "pineal", "motor_neuron_pool"],
+  "result": {
+    "uptake_no_block": 0.849,
+    "uptake_with_block_reference": 0.058,
+    "protection_absent": true,
+    "pinealocyte_risk": "HIGH",
+    "melatonin_risk": "ELEVATED",
+    "sco_leak": 0.0077,
+    "motor_gpx4_risk": "MODERATE-HIGH if Fe/oxidative stress present",
+    "status": "OPEN PORT — high uptake path; inverse of help_test HOLD"
+  },
+  "comparison_to_help_test": {
+    "help_test_uptake": 0.058,
+    "kill_test_uptake": 0.849,
+    "delta": "9.3x higher uptake without filter"
+  }
+}
