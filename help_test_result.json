@@ -1,0 +1,19 @@
+{
+  "mode": "help_test",
+  "compound": "HSPG_decoy + anti_TIM4_Fab",
+  "fus": { "frequency_khz": 220, "MI": [0.3, 0.4], "window": "trans-tentorial occipital" },
+  "targets": ["pineal_recess", "pineal", "csf"],
+  "result": {
+    "uptake_with_block": 0.058,
+    "uptake_no_block_baseline": 0.849,
+    "protection_factor": 9.3,
+    "melatonin_hold": 0.985,
+    "sco_leak": 0.0077,
+    "motor_gpx4": 0.85,
+    "status": "HOLD — matches MAI 50/50 coherence proof"
+  },
+  "notes": [
+    "TIM4 literature_notes appended — pinealocyte TIM4 remains model extension",
+    "Root name corrected: Architect, not Bo"
+  ]
+}
