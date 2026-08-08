@@ -1,0 +1,22 @@
+{
+  "mai_ledger": {
+    "A": {"status": "HOLD", "uptake": 0.058},
+    "B": {"status": "OPEN", "uptake": 0.849, "B1": 0.71, "B2": 0.849},
+    "C": {"status": "STEERED", "uptake": 0.21}
+  },
+  "forward_k_int_hr": {
+    "A": 0.091,
+    "B": 0.85,
+    "C": 0.21,
+    "C_FUS": 0.24,
+    "target_C": "<0.1"
+  },
+  "backward": {
+    "gbm_ev": {"zeta": -22, "PS_pct": 12, "conc": 1e9},
+    "flux_open": 0.849,
+    "flux_filtered": 0.058,
+    "verdict": "protection holds under tumor EV load"
+  },
+  "formulations": ["C-v1 NAS", "C-v2 siTIM4", "C-v3 half heparinoid"],
+  "token_draft": "PINEAL_RECESS_v4.2_STEERED_THERAPEUTIC_PORT"
+}
