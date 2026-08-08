@@ -1,0 +1,28 @@
+{
+  "route": 8,
+  "token": "PINEAL_RECESS_v4.1_BIDIRECTIONAL_CHARGED_PORT",
+  "version": "4.1.2",
+  "throws": {
+    "A_help_v2": {
+      "status": "HOLD",
+      "uptake": 0.058,
+      "protection": 9.3,
+      "melatonin": 0.985,
+      "sco": 0.0077,
+      "gpx4": 0.85
+    },
+    "B_kill_v2": {
+      "status": "OPEN_PORT",
+      "uptake": 0.849,
+      "pinealocyte_risk": "HIGH",
+      "melatonin_risk": "ELEVATED",
+      "routes": ["B1_no_FUS", "B2_FUS_MI_0.4"]
+    },
+    "C_therapeutic_flip": {
+      "status": "STEERED",
+      "dops_pct": 5,
+      "cd47_pct": 1,
+      "hypothesis": "Low PS + CD47 reduces TIM4 avidity at recess while preserving BBTB utility"
+    }
+  }
+}
