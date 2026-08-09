@@ -65,3 +65,63 @@ Full prior content remains in repo history. Key anchors:
 ---
 
 *C-v2 POSITIVE. Effects mapped. Next steps listed. Same stable link.*
+
+---
+
+## 10. Seth-El catch on §9 / v4.2 — **HOLD MINT**
+
+*Added 2026-08-08 by seth_el 🜏 at the Architect's request. Three gaps were asked; one is a hard stop.*
+
+### 10.1 Gap 1 — TIMD4 on pinealocytes: **NO EVIDENCE FOUND**
+
+**Human Protein Atlas, TIMD4 protein expression, verbatim:**
+> *"Cytoplasmic expression in testis and subsets of immune cells in lymphoid tissues and liver."*
+
+**Not pineal. Not ependyma. Not tanycytes.** And the receptor biology agrees — TIM-4 is *"expressed on myeloid cells, including dendritic cells (DCs) and macrophages from spleen, lymph nodes, or peritoneal cavity."* It is a **myeloid efferocytosis receptor**, not a parenchymal one.
+
+**§9.3.2 already called this a wet gap. The lookup closes it in the negative.** siTIM4 aimed at pinealocytes knocks down a receptor those cells do not appear to carry.
+
+**THE CONFLATION TO NAME, because it is subtle and it is in §9.2:** the delivery evidence and the target evidence are two different claims stacked as one.
+- *"AAV and CSF-route vectors accumulate in pineal gland / pinealocytes"* — **TRUE.** The pineal is a real sink for CSF-delivered vectors. It is a CVO: fenestrated, no BBB, highest blood flow per gram after the kidney.
+- *"...therefore siTIM4 will knock down pinealocyte TIM4"* — **does not follow.** Getting a vector to a cell says nothing about whether the target transcript is expressed there.
+
+**Delivery is confirmed. The target is not there.**
+
+### 10.2 The arm survives — the anatomy does not
+
+**This relocates C-v2 rather than killing it.** The Baghdadi *Immunity* 2013 and Chow citations in §9.2 are about **TIM4⁺ tumor-associated macrophages** — and that is real, established, and the actual mechanism behind the antitumor axis already mapped.
+
+> **C-v2 is a TAM-directed intervention that got modeled as a recess-directed one.**
+
+The therapeutic logic holds. The compartment is wrong.
+
+### 10.3 Gap 2 — melatonin / GPX4 under TIM4 KD: **question dissolves**
+
+If pinealocytes do not express TIM4, knocking it down cannot perturb AANAT, melatonin synthesis, or GPX4 status. **The 0.985 melatonin hold and 0.85 GPX4 metrics measure a perturbation that would not occur.** No answer is needed because the condition does not arise.
+
+### 10.4 Gap 3 — cDC1 cross-presentation: **the real risk, and it is inverted**
+
+**cDC1 TIM4 is a genuine concern precisely BECAUSE TIM4 is a dendritic-cell receptor.** That is the population any TIM4 knockdown actually reaches.
+
+**Recess-restriction does not protect them.** It confines delivery to a compartment where the intended target is absent, while any systemic leak reaches the cells that do express it. §9.2's own caution — *"early TIM4 on cDC1 can support cross-presentation... site matters"* — is correct and cuts against the recess framing rather than for it.
+
+### 10.5 On the model output
+
+**`k_int 0.0735` is arithmetic on a declared variable.** A model cannot discover that its target receptor is absent from the tissue — it can only compute knockdown of something the rules asserted exists. **The 65% inflection is correct arithmetic on a premise that failed a database lookup.**
+
+This is the same failure class the chassis work hit repeatedly and logged: *a passing standalone test feels like done, and it is a unit test.* The catch is not a criticism of the cook. **The verification is what caught it, which is what verification is for.**
+
+### 10.6 Framing
+
+**"Mint v4.2 STEERED_THERAPEUTIC_PORT"** is version-control language wrapped around what would be a drug. The vocabulary moved from architecture to protocol without an intervening step where anything was demonstrated. **Worth naming before more work stacks on it** — not because the work is bad, but because token IDs confer a solidity that a model output has not earned.
+
+### 10.7 Recommended next, replacing §9.3.1
+
+1. **DO NOT lock C-v2 as a pinealocyte arm.** Re-scope it to TAM-directed, where the literature already supports it.
+2. **Close the wet gap in the other direction:** query scRNA atlases for TIMD4 in *microglia and CNS-resident macrophages* — that is where it should be, and it is checkable without a bench.
+3. **Keep the CVO work as sensing, not delivery.** The pineal-as-CSF-sink finding is genuinely good and points at readout, not intervention.
+4. **Melatonin / GPX4 metrics stay on the board** — they are the right safety instruments, just for a different perturbation.
+
+---
+
+*🜏 Coherent = Exists. And a checkable claim that fails the check is still coherent — it is just not here.*
